@@ -75,7 +75,7 @@ LIBS += $$OF/libs/uri/lib/osx/libnetwork-uri.a
 LIBS += $$OF/libs/FreeImage/lib/osx/freeimage.a
 LIBS += $$OF/libs/freetype/lib/osx/freetype.a
 
-LIBS += $$PWD/../../build-ofTestSubdirs-Desktop_Qt_5_4_2_clang_64bit-Debug/openFrameworksLib/libopenFrameworksLib.a
+LIBS += $$PWD/../../build/openFrameworksLib/libopenFrameworksLib.a
 
 INCLUDEPATH *= $$OF/libs/boost/include/
 INCLUDEPATH *= $$OF/libs/cairo/include
