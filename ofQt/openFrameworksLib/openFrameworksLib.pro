@@ -1,4 +1,4 @@
-OF = /Users/milespeyton/Documents/of_v0.9.0
+OF = $$PWD/../../of_v0.9.0
 
 TEMPLATE  = lib
 CONFIG   += staticlib

@@ -4,7 +4,7 @@
 #
 #-------------------------------------------------
 
-OF = /Users/milespeyton/Documents/of_v0.9.0
+OF = $$PWD/../../of_v0.9.0
 QT       += core gui
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
