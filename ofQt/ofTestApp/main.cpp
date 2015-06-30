@@ -3,14 +3,19 @@
 #include "ofApp.h"
 #include <QApplication>
 
-int main(int argc, char *argv[])
+int main( )
 {
     ofSetupOpenGL(1024, 768, OF_WINDOW);
 
+    int argc = 0;
+    char *argv[] = {0};
     QApplication a(argc, argv);
     MainWindow w;
-    w.show();
 
-    ofRunApp( new ofApp() );
-    return a.exec();
+    ofApp* app = new ofApp();
+    app->ui = w.ui;
+
+    w.show();
+    //a.exec(); < this doesn't work for some reason
+    ofRunApp( app );
 }

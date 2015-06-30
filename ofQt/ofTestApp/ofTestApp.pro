@@ -43,6 +43,40 @@ LIBS += -framework QTKit
 
 LIBS += $$PWD/../../build/openFrameworksLib/libopenFrameworksLib.a
 
+LIBS += $$OF/libs/boost/lib/osx/boost_filesystem.a
+LIBS += $$OF/libs/boost/lib/osx/boost_system.a
+LIBS += $$OF/libs/boost/lib/osx/boost.a
+
+LIBS += $$OF/libs/fmodex/lib/osx/libfmodex.dylib
+LIBS += $$OF/libs/glfw/lib/osx/glfw3.a
+LIBS += $$OF/libs/FreeImage/lib/osx/freeimage.a
+LIBS += $$OF/libs/freetype/lib/osx/freetype.a
+LIBS += $$OF/libs/glew/lib/osx/glew.a
+
+LIBS += $$OF/libs/poco/lib/osx/PocoCrypto.a
+LIBS += $$OF/libs/poco/lib/osx/PocoData.a
+LIBS += $$OF/libs/poco/lib/osx/PocoDataSQLite.a
+LIBS += $$OF/libs/poco/lib/osx/PocoJSON.a
+LIBS += $$OF/libs/poco/lib/osx/PocoUtil.a
+LIBS += $$OF/libs/poco/lib/osx/PocoXML.a
+LIBS += $$OF/libs/poco/lib/osx/PocoNet.a
+LIBS += $$OF/libs/poco/lib/osx/PocoNetSSL.a
+LIBS += $$OF/libs/poco/lib/osx/PocoZip.a
+LIBS += $$OF/libs/poco/lib/osx/PocoFoundation.a
+
+LIBS += $$OF/libs/rtAudio/lib/osx/rtAudio.a
+LIBS += $$OF/libs/tess2/lib/osx/tess2.a
+LIBS += $$OF/libs/cairo/lib/osx/cairo-script-interpreter.a
+LIBS += $$OF/libs/cairo/lib/osx/cairo.a
+LIBS += $$OF/libs/cairo/lib/osx/pixman-1.a
+LIBS += $$OF/libs/openssl/lib/osx/crypto.a
+LIBS += $$OF/libs/openssl/lib/osx/ssl.a
+LIBS += $$OF/libs/boost/lib/osx/boost_system.a
+LIBS += $$OF/libs/boost/lib/osx/boost_filesystem.a
+LIBS += $$OF/libs/uri/lib/osx/libnetwork-uri.a
+LIBS += $$OF/libs/FreeImage/lib/osx/freeimage.a
+LIBS += $$OF/libs/freetype/lib/osx/freetype.a
+
 INCLUDEPATH *= $$OF/libs/boost/include/
 INCLUDEPATH *= $$OF/libs/cairo/include
 INCLUDEPATH *= $$OF/libs/cairo/include/libpng15
